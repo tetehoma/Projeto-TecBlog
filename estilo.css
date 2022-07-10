@@ -1,0 +1,98 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuche MS", Helvetica, sans-serif;
+	background: #e6e6e6;}
+
+a:link, a:visited{
+color: #f7b600;
+text-decoration: none;
+
+}
+a:hover{
+	text-decoration:underline;
+}
+
+#menu a:link, #menu a:visited{
+color:#FFF;
+padding: 8px 12px;
+text-decoration: none;
+}
+#menu a:hover{
+background-color: #FFF;
+color: #f7b600;
+}
+#menu{
+background-color: #f7b600;
+text-align: center;
+margin: 0 auto;
+}
+#arealogo, #areamenu{
+	padding: 10px;
+}
+#conteudo{
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#rodape{
+text-align: center;
+background-color: lightgray;
+padding: 15px;
+clear: both;
+}
+#areaconteudo1{
+width: 660px;
+float: left;
+}
+#areaconteudo2{
+width: 240px;
+float: right;
+}
+
+
+.branco{
+	color: white;
+}
+.area-postagens{
+background-color: #FFF;
+padding: 20px;
+margin-bottom: 20px;}
+
+.texto-lateral{
+font-size: 0.8em;
+padding: 5px;
+margin-bottom: 10px;
+
+}
+.conteudo-lateral{
+	background-color: #FFF;
+	padding: 10px;
+	margin-bottom:20px ;
+}
+
+.datapostagem{
+font-size: 0.8em;
+border-bottom: 1px solid #f4f4f4;
+padding: 10px;
+margin-bottom: 10px ;
+display: block;
+}
+h2 {
+color:#f7b600;
+
+}
+h1 {
+	font-size: 2.5em;
+	color: #4e4e4e;
+}
+h3 {
+	color: #565656;
+	background-color: #CCC;
+	padding: 5px;
+}
